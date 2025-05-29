@@ -1,0 +1,12 @@
+{
+    "name": "trabalho-final-js-testes",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+      "test": "mocha"
+    },
+    "devDependencies": {
+      "mocha": "^10.4.0"
+    }
+  }
+  
