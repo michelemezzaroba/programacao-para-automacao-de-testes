@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "type": "module",
     "scripts": {
-      "test": "mocha"
+      "test": "mocha trabalho-final.js"
     },
     "devDependencies": {
       "mocha": "^10.4.0"
