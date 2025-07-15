@@ -1,11 +1,11 @@
-name: Executar Testes com Mocha
+name: Executar Testes 
 
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  workflow_dispatch: 
+  workflow_dispatch:
 
 jobs:
   test:
@@ -19,6 +19,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20'
+
+      - name: Verificar arquivos
+        run: ls -la
 
       - name: Instalar dependências
         run: npm ci
